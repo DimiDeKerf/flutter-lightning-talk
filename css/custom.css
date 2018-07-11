@@ -12,10 +12,27 @@ div.flex {
     display: flex;
 }
 
+div.flex.center {
+    justify-content: center;
+    align-items: center;
+}
+
 div.text-left p {
     text-align: left;
 }
 
 .flutter-overview .flutter-logo {
     margin-right: 40px;
+}
+
+img.image-code {
+    object-fit: contain;
+    width: 50%;
+    height: 500px;
+}
+
+img.image-device {
+    object-fit: contain;
+    width: 50%;
+    height: 700px;
 }
